@@ -26,6 +26,22 @@ module.exports = () => {
         swSrc: './src-sw.js',
         swDest: 'superServiceWorker.js',
       }),
+      new WebpackPwaManifest({
+        name: `JATE`,
+        short_name: `JATE`,
+        orientation: `landscape`,
+        display: `standalone`,
+        description: `Just another text editor.`,
+        start_url: `./`,
+        publicPath: `./`,
+        icons: [
+          {
+            src: path.resolve(`src/images/logo.png`),
+            sizes: [96, 128, 192, 256, 384, 512]
+          }
+        ]
+
+      })
     ],
 
     module: {
