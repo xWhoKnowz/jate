@@ -60,4 +60,4 @@ Email: TBD
 
 ## Webpage Screenshot
     
-![Screen shot of the application; dislpays the app title J.A.T.E. which stands for Just Another Text Editor.]()
+![Screenshot of the application; displays the app title J.A.T.E. which stands for Just Another Text Editor.](./Assets/jate-screenshot.jpg)
